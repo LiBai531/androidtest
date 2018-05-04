@@ -1,0 +1,286 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:2:1-106:12
+MERGED from [com.github.KalebKE:FSensor:v1.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\FSensor-v1.2.aar\fe29944d5630a62fa9b95461eed6085e\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ff74ce9507b3d4b5052a307e83c70313\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7b9bc32b49cea477212d3fe8ac71ceed\AndroidManifest.xml:2:1-11:12
+MERGED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\c88d63c9d175f83441124a15dcdd03ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\eebe8b6c7e47865de6f871289137ae90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\855d6d7e3d5fa6bf943bacd90bca2b7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\c65abb86bb3d6bb449457ca822de98eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\e4139197c075eb7e1d12c0e9d0d62c2b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\3f3335461dbbc205cdbccc61326a0c86\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f531d58bcb87bf1f011513b52e8b9395\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1d7c9d09f762c037e07f83317961c67a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6554ec370e369a62a97307470c59ae04\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\870fe13d5ed16a1247ade00223d049f8\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:2:1-106:12
+	package
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.sensor.gyroscope
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:8:9-32
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:7:9-57
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:18:22-65
+application
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:20:5-104:19
+MERGED from [com.github.KalebKE:FSensor:v1.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\FSensor-v1.2.aar\fe29944d5630a62fa9b95461eed6085e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.KalebKE:FSensor:v1.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\FSensor-v1.2.aar\fe29944d5630a62fa9b95461eed6085e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7b9bc32b49cea477212d3fe8ac71ceed\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7b9bc32b49cea477212d3fe8ac71ceed\AndroidManifest.xml:9:5-20
+MERGED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-22:19
+MERGED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-22:19
+	android:supportsRtl
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:23:9-43
+		REJECTED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:27:9-40
+	tools:replace
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:21:9-37
+activity#com.graphhopper.android.mfsensor.GyroscopeActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:28:9-96
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:28:19-84
+activity#com.graphhopper.android.mfsensor.ConfigActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:29:9-84
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:29:19-81
+activity#com.graphhopper.android.mfsensor.Matcher
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:30:9-77
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:30:19-74
+activity#com.graphhopper.android.mfsensor.GetGps
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:31:19-73
+activity#deadreckoning.activity.StepCountActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:34:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:37:13-47
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:36:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:40:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:39:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:35:13-68
+activity#deadreckoning.activity.StepCalibrationActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:46:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:45:13-55
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:44:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:48:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:43:13-74
+activity#deadreckoning.activity.GraphActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:50:9-57:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:54:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:52:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:56:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:55:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:51:13-64
+activity#deadreckoning.activity.HeadingActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:58:9-65:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:62:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:61:13-55
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:60:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:64:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:63:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:59:13-66
+activity#deadreckoning.activity.DataCollectActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:66:9-73:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:70:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:69:13-59
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:68:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:72:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:71:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:67:13-70
+activity#deadreckoning.activity.UserActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:74:9-81:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:77:13-48
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:76:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:80:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:79:13-58
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:75:13-63
+activity#deadreckoning.activity.QRCodeActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:82:9-85:20
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:84:13-59
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:83:13-65
+activity#deadreckoning.activity.UserListActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:86:9-98:20
+	android:screenOrientation
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:90:13-49
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:89:13-45
+	android:configChanges
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:88:13-74
+	tools:targetApi
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:92:13-39
+	android:theme
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:91:13-78
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:87:13-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:94:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:96:27-74
+activity#deadreckoning.activity.DebugToolsActivity
+ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:99:9-102:20
+	android:label
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:101:13-55
+	android:name
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml:100:13-69
+uses-sdk
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+MERGED from [com.github.KalebKE:FSensor:v1.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\FSensor-v1.2.aar\fe29944d5630a62fa9b95461eed6085e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.KalebKE:FSensor:v1.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\FSensor-v1.2.aar\fe29944d5630a62fa9b95461eed6085e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ff74ce9507b3d4b5052a307e83c70313\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\ff74ce9507b3d4b5052a307e83c70313\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7b9bc32b49cea477212d3fe8ac71ceed\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7b9bc32b49cea477212d3fe8ac71ceed\AndroidManifest.xml:5:5-7:41
+MERGED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\c88d63c9d175f83441124a15dcdd03ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\c88d63c9d175f83441124a15dcdd03ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\eebe8b6c7e47865de6f871289137ae90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\eebe8b6c7e47865de6f871289137ae90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\855d6d7e3d5fa6bf943bacd90bca2b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\855d6d7e3d5fa6bf943bacd90bca2b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\c65abb86bb3d6bb449457ca822de98eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\c65abb86bb3d6bb449457ca822de98eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\e4139197c075eb7e1d12c0e9d0d62c2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\e4139197c075eb7e1d12c0e9d0d62c2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\3f3335461dbbc205cdbccc61326a0c86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\3f3335461dbbc205cdbccc61326a0c86\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f531d58bcb87bf1f011513b52e8b9395\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f531d58bcb87bf1f011513b52e8b9395\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1d7c9d09f762c037e07f83317961c67a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1d7c9d09f762c037e07f83317961c67a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6554ec370e369a62a97307470c59ae04\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6554ec370e369a62a97307470c59ae04\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\870fe13d5ed16a1247ade00223d049f8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\83443\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\870fe13d5ed16a1247ade00223d049f8\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\83443\Desktop\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera
+ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-60
+	android:name
+		ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:19-57
+activity#com.dm.zbar.android.scanner.ZBarScannerActivity
+ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-21:53
+	android:screenOrientation
+		ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:13-50
+	android:label
+		ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from [:zBarScannerLibrary] C:\Users\83443\Desktop\android\zBarScannerLibrary\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:13-75

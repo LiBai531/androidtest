@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.graphhopper.android" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.graphhopper.android.mfsensor.GyroscopeActivity" />
+        <activity android:name="com.graphhopper.android.mfsensor.ConfigActivity" />
+        <activity android:name="com.graphhopper.android.mfsensor.Matcher" />
+        <activity android:name="com.graphhopper.android.mfsensor.GetGps" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.StepCountActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_step_counter"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.StepCalibrationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_activity_calibration"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.GraphActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_activity_graph"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.HeadingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_activity_orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.DataCollectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_activity_data_collection"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.UserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="title_activity_user"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.QRCodeActivity"
+            android:label="title_activity_qr_code_scanner" >
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.UserListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="deadreckoning.activity.DebugToolsActivity"
+            android:label="title_activity_debug_tools" >
+        </activity>
+        <activity
+            android:name="com.dm.zbar.android.scanner.ZBarScannerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
